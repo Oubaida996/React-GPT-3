@@ -1,9 +1,30 @@
+import React from 'react';
+
+//Container
+import { Blog, Features, Footer, Header, Possibility, WhatGPT3 } from './container';
+
+//Components
+import { Article, Brand, CTA, Feature, Navbar, } from './components';
 
 
-export default function App () {
+function App () {
   return (
-    <div>App</div>
+    <div className='App'>
+      <div className="gradient__bg">
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <WhatGPT3 />
+      <Features />
+      <Possibility />
+      <CTA />
+      <Blog />
+      <Footer />
+    </div>
   )
 }
+
+export default App
 
 

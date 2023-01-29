@@ -21,7 +21,7 @@ function Navbar () {
         <p><a href="#blog">Library</a></p>
     </> );
     return (
-        <div className='gpt3__navbar'>
+        <nav className='gpt3__navbar'>
             <div className="gpt3__navbar-links">
                 <div className="gpt3__navbar-links_logo">
                     <img src={ logo } alt="logo.png" />
@@ -52,7 +52,7 @@ function Navbar () {
                     </div> )
                 }
             </div>
-        </div>
+        </nav>
     )
 }
 

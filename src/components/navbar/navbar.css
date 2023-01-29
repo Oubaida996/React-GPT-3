@@ -141,3 +141,52 @@
 .gpt3__navbar-menu_container-links-sign {
     display: none;
 }
+
+
+/*
+============ 
+   Responsive Navbar Design
+============
+ */
+
+
+/*Under Larg screen */
+
+@media screen and (max-width: 1050px) {
+    .gpt3__navbar-menu {
+        display: flex;
+    }
+    .gpt3__navbar-links_container {
+        display: none;
+    }
+}
+
+
+/*Under Tablet */
+
+@media screen and (max-width: 700px) {
+    .gpt3__navbar {
+        padding: 2rem 4rem;
+    }
+}
+
+
+/*Under Mobile devices */
+
+@media screen and (max-width: 550px) {
+    .gpt3__navbar {
+        padding: 2rem;
+    }
+    .gpt3__navbar-menu {
+        display: flex;
+    }
+    .gpt3__navbar-menu_container-links-sign {
+        display: block;
+    }
+    .gpt3__navbar-links_container {
+        top: 20px;
+    }
+    .gpt3__navbar-sign {
+        display: none;
+    }
+}

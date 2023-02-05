@@ -17,7 +17,7 @@ function Navbar () {
         <p><a href="#home">Home</a></p>
         <p><a href="#wgpt3">What is GPT?</a></p>
         <p><a href="#possipility">Open AI</a></p>
-        <p><a href="#Features">Case Studies</a></p>
+        <p><a href="#features">Case Studies</a></p>
         <p><a href="#blog">Library</a></p>
     </> );
     return (

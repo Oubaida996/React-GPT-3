@@ -74,29 +74,3 @@
   }
 }
 
-@media screen and (max-width: 990px) {
-  .gpt3__features {
-    flex-direction: column;
-  }
-  .gpt3__features-heading {
-    margin-right: 0;
-  }
-  .gpt3__features-heading p {
-    letter-spacing: 1.5px;
-  }
-  .gpt3__features-heading p {
-    letter-spacing: 1.5px;
-  }
-  .gpt3__features-container
-    .gpt3__whatgpt3-container__feature
-    .gpt3__whatgpt3-container__feature-title
-    h1 {
-    letter-spacing: 1px;
-  }
-  .gpt3__features-container
-    .gpt3__whatgpt3-container__feature
-    .gpt3__whatgpt3-container__feature-text
-    p {
-    letter-spacing: 1px;
-  }
-}

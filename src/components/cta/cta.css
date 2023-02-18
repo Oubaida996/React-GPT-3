@@ -125,6 +125,6 @@
     .gpt3__cta-box__button{
         width: 100%;
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
     }
 }

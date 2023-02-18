@@ -30,6 +30,7 @@ a {
 }
 
 .gradient__text {
+    font-family: var(--font-family);
     background: var(--gradient-text);
     background-clip: text;
     -webkit-background-clip: text;

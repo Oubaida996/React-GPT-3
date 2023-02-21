@@ -5,7 +5,7 @@ import './App.css';
 import { Blog, Features, Footer, Header, Possibility, WhatGPT3 } from './container';
 
 //Components
-import { Article, Brand, CTA, Feature, Navbar, } from './components';
+import {  Brand, CTA, Navbar, } from './components';
 
 
 function App () {

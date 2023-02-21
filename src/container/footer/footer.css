@@ -1,0 +1,28 @@
+.gpt3__footer {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 100%;
+  background: var(--color-footer);
+}
+
+.gpt3__footer-heading {
+  text-align: center;
+  font-family: var(--font-family);
+}
+
+.gpt3__footer-heading h1 {
+  font-weight: 800;
+  font-size: 52px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  margin-bottom: 3rem;
+  
+}
+.gpt3__footer-heading button {
+  font-size: 18px;
+  line-height: 1.5;
+  background: none;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 1rem;
+}

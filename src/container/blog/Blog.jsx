@@ -14,7 +14,7 @@ function Blog() {
     <div className='gpt3__blog section__padding'>
       <div className='gpt3__blog-heading'>
         <h1 className='gradient__text'>
-          A lot is happening, We are blogging about it.
+          A lot is happening,<span  style={{display:'block'}}>We are blogging about it.</span> 
         </h1>
       </div>
       <div className='gpt3__blog-container'>

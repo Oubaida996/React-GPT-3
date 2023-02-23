@@ -16,4 +16,4 @@ GPT-3 is a ReactJS app to applay how I can transform a Figma design into a fully
 
 
 ### Reference :
-[Link](https://www.youtube.com/watch?v=LMagNcngvcU&list=PL6QREj8te1P6CkO_4OIK1-nwG5OxCD5tR)
+[JavaScript Mastery](https://www.youtube.com/watch?v=LMagNcngvcU&list=PL6QREj8te1P6CkO_4OIK1-nwG5OxCD5tR)

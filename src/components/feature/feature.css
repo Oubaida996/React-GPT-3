@@ -1,5 +1,4 @@
 .gpt3__whatgpt3-container__feature {
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -46,7 +45,6 @@
   .gpt3__whatgpt3-container__feature {
     margin: 1rem 0;
     flex-direction: column;
-    
   }
   .gpt3__whatgpt3-container__feature-title h1 {
     font-size: 20px;

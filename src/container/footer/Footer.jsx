@@ -19,6 +19,14 @@ function Footer() {
               Crechterwoord K12 182 DK
               <br /> Alknjkcb, All Rights Reserved
             </p>
+            <p>
+              Reference :
+              <a
+                href='https://www.youtube.com/watch?v=LMagNcngvcU&list=PL6QREj8te1P6CkO_4OIK1-nwG5OxCD5tR'
+                target='_blank'>
+               {' '} JavaScript Mastery
+              </a>
+            </p>
           </div>
           <div className='gpt3__footer-content__container-info'>
             <div>

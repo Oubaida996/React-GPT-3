@@ -4,13 +4,9 @@ import possibilityImage from '../../assets/possibility.png';
 
 function Possibility() {
   return (
-    <div className='gpt3__possibility section__padding'>
+    <div className='gpt3__possibility section__padding' id='possipility'>
       <div className='gpt3__possibility-content-image'>
-        <img
-          src={possibilityImage}
-          alt='possibilityImage.png'
-          loading='lazy'
-        />
+        <img src={possibilityImage} alt='possibilityImage.png' loading='lazy' />
       </div>
       <div className='gpt3__possibility-content'>
         <h4>Request Early Access to Get Started</h4>

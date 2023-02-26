@@ -12,22 +12,29 @@ BEM --> Block Element Modifire
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
+  const handleClickScroll = (idName) => {
+    const element = document.getElementById(idName);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   const Menu = () => (
     <>
       <p>
-        <a href='#home'>Home</a>
+        <a onClick={() => handleClickScroll('home')}>Home</a>
       </p>
       <p>
-        <a href='#wgpt3'>What is GPT?</a>
+        <a onClick={() => handleClickScroll('wgpt3')}>What is GPT?</a>
       </p>
       <p>
-        <a href='#possipility'>Open AI</a>
+        <a onClick={() => handleClickScroll('possipility')}>Open AI</a>
       </p>
       <p>
-        <a href='#features'>Case Studies</a>
+        <a onClick={() => handleClickScroll('features')}>Case Studies</a>
       </p>
       <p>
-        <a href='#blog'>Library</a>
+        <a onClick={() => handleClickScroll('blog')}>Library</a>
       </p>
     </>
   );

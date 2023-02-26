@@ -12,23 +12,22 @@ BEM --> Block Element Modifire
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
+  // @desc  👇 Will scroll smoothly to the top of the next section
+  // @url   https://codefrontend.com/scroll-to-element-in-react/#using-scrollintoview-function
+  const handleClickScroll = (idName) => {
+    const element = document.getElementById(idName);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   const Menu = () => (
     <>
-      <p>
-        <a href='#home'>Home</a>
-      </p>
-      <p>
-        <a href='#wgpt3'>What is GPT?</a>
-      </p>
-      <p>
-        <a href='#possipility'>Open AI</a>
-      </p>
-      <p>
-        <a href='#features'>Case Studies</a>
-      </p>
-      <p>
-        <a href='#blog'>Library</a>
-      </p>
+      <p onClick={() => handleClickScroll('home')}>Home</p>
+      <p onClick={() => handleClickScroll('wgpt3')}>What is GPT?</p>
+      <p onClick={() => handleClickScroll('possipility')}>Open AI</p>
+      <p onClick={() => handleClickScroll('features')}>Case Studies</p>
+      <p onClick={() => handleClickScroll('blog')}>Library</p>
     </>
   );
   return (

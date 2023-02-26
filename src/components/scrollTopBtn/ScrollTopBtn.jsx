@@ -15,7 +15,8 @@ function ScrollTopBtn() {
     });
   }, []);
 
-  const goToTop = () => {
+  const goToTop = (e) => {
+   
     window.scrollTo({
       top: 0,
       behavior: 'smooth',
@@ -24,7 +25,12 @@ function ScrollTopBtn() {
   return (
     <div className='gpt3__scrollTopBtn'>
       {showTopBtn && (
-        <FaAngleUp className='gpt3__scrollTopBtn-icon' onClick={goToTop} />
+        <FaAngleUp
+          className='gpt3__scrollTopBtn-icon'
+          onClick={(e) => {
+            goToTop(e);
+          }}
+        />
       )}
     </div>
   );

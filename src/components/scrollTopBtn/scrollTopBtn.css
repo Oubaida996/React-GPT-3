@@ -1,0 +1,43 @@
+.gpt3__scrollTopBtn {
+  position: relative;
+}
+
+.gpt3__scrollTopBtn-icon {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 20;
+  background: var(--color-subtext);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+  animation: movebtn 3s ease-in-out infinite;
+  transition: all 0.5s ease-in-out;
+}
+
+.gpt3__scrollTopBtn-icon:hover {
+  background: #fff;
+  color: var(--color-subtext);
+  border: 2px solid var(--color-subtext);
+}
+
+@keyframes movebtn {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  75% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

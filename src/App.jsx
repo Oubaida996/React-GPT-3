@@ -2,16 +2,23 @@ import React from 'react';
 import './App.css';
 
 //Container
-import { Blog, Features, Footer, Header, Possibility, WhatGPT3 } from './container';
+import {
+  Blog,
+  Features,
+  Footer,
+  Header,
+  Possibility,
+  WhatGPT3,
+} from './container';
 
 //Components
-import {  Brand, CTA, Navbar, } from './components';
+import { Brand, CTA, Navbar, ScrollTopBtn } from './components';
 
-
-function App () {
+function App() {
   return (
     <div className='App'>
-      <div className="gradient__bg">
+      <ScrollTopBtn />
+      <div className='gradient__bg'>
         <Navbar />
         <Header />
       </div>
@@ -23,9 +30,7 @@ function App () {
       <Blog />
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
-
-
+export default App;

@@ -2,6 +2,8 @@
 
 GPT-3 is a ReactJS app to applay how I can transform a Figma design into a fully functioning website, improve CSS skills, and create modern and responsive ReactJS websites.
 
+# Live Demo
+[gpt3-oubaida](https://gpt3-oubaida.netlify.app/)
 
 ![GPT-3](https://user-images.githubusercontent.com/79963515/220930148-b226bdc2-d47e-4a9e-bfba-498d1172b97b.png)
 
